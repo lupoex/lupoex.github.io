@@ -1,0 +1,114 @@
+#tablero{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+}
+.cuadrado{
+  width: 30%;
+  height: 190px;
+  background-color:none;
+  color: transparent;
+  margin: 1%;
+  border:1px solid black;
+}
+.cuadrado img{
+  margin-left: 30%;
+  margin-top: 20px;
+  width: 150px;
+}
+#players{
+  overflow: hidden;
+}
+.player1{
+  position: absolute;
+  top: 20%;
+  left: 0%;
+  width: 200px;
+  text-align: center;
+}
+.player2{
+  position: absolute;
+  top: 20%;
+  right: 0%;
+  width: 200px;
+  text-align: center;
+}
+.player1 .fotito1{
+  display: block;
+  width: 100%;
+}
+.player2 .fotito2{
+  display: none;
+  width: 100%;
+}
+
+
+#titulo{
+  overflow: hidden;
+}
+h1{text-align: center;
+
+}
+#letra{
+  text-decoration: underline;
+font-family: 'Spicy Rice', cursive;
+letter-spacing: 3px;
+transition: transform 1s;
+}
+#letra:hover{
+  transform:scaleX(1.1);
+}
+
+div.mensaje1{
+  color: white;
+  background-color: #4caf50;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  /* height: 100px; */
+  text-align: center;
+  font-size: 40px;
+  display: none;
+}
+.mensaje1 button{
+  background-color: black;
+  color: white;
+  width: 10%;
+  margin: 0 auto;
+  border-radius: 20px;
+  border-color: black;
+}
+div.mensaje2{
+  color: white;
+  background-color: #4caf50;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  /* height: 100px; */
+  text-align: center;
+  font-size: 40px;
+  display: none;
+}
+.mensaje2 button{
+  background-color: black;
+  color: white;
+  width: 10%;
+  margin: 0 auto;
+  border-radius: 20px;
+  border-color: black;
+}
+body{
+background-image: url(img/rick-and-morty.gif);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#taco{
+background-image: url(img/stand-by.gif);
+background-repeat: no-repeat;
+background-size: covers
+}

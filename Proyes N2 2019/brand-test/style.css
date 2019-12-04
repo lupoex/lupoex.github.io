@@ -1,0 +1,99 @@
+  body{
+  background-color: black;
+  overflow: hidden;
+  position: relative;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+.card{
+  background-color: orange;
+  width: 20%;
+  float: left;
+  height: 24vh;
+  margin: 1%;
+  margin-left: 3.4%;
+}
+.signoPregunta{
+  background-image: url(./ftos/signo2.png) !important;
+
+  
+}
+
+.color{
+  background-color: violet;
+
+}
+.cartel-perdio{
+  position: absolute;
+  top: 45vh;
+  /* left: 50%; */
+  color: red;
+  background-color: black;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  font-size: 40px;
+  display: none;
+}
+.cartel-ganaste{
+  position: absolute;
+  top: 1vh;
+  left: 1%;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  font-size: 40px;
+  display: none;
+}
+#contador{
+  color: white;
+}
+.imagen0{
+  background-image: url(ftos/bmw.png) ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 1s;
+}
+.imagen1{
+  background-image: url(ftos/ferrari.png) ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 1s;
+}
+.imagen2{
+  background-image: url(ftos/lambo.png) ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 1s;
+}
+.imagen3{
+  background-image: url(ftos/pors.png) ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 1s;
+}
+.imagen4{
+  background-image: url(ftos/rolls.png) ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 1s;
+}
+.imagen5{
+  background-image: url(ftos/tesla.png) ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 1s;
+}
+.reset {
+  color: white;
+  text-align: right;
+
+}

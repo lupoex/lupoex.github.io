@@ -1,0 +1,85 @@
+body{
+  background-image: url("img/logo-k.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section.section-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.title{
+width: 200px;
+height:105px;
+background-color: WHITE;
+text-align: center;
+margin-top: 50px;
+font-family: 'Saira Stencil One', cursive;
+font-size: 17px;
+}
+
+.title a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.puntaje{
+  color: white;
+  font-size: 20px;
+  overflow: hidden;
+  width: 90%;
+  margin-left: 5%;
+}
+
+#reloj{
+  float: right;
+}
+.clicks{
+  float: left;
+}
+#click{
+  margin-left: 5px;
+}
+#clickmenos{
+  margin-left: 5px;
+}
+
+.tablero{
+  height: 83vh;
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid black;
+  position: relative;
+  /* background-color: yellow; */
+}
+.rojo{
+  position: absolute;
+  top: 20px;
+  left: 700px;
+  height: 90px;
+  width: 45px;
+  background-color: red;
+  transition: 0.7s ease;
+}
+.rojo:hover{
+
+}
+
+.mensaje{
+  position: absolute;
+  top: 40%;
+  width: 98vw;
+  background-color: white;
+  color: black;
+  text-align: center;
+  display: none;
+}
+.mensaje a{
+
+  color: black;
+  text-align: center;
+}

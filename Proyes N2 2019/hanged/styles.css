@@ -1,0 +1,93 @@
+h1{
+  text-align: center;
+  color: white;
+  font-family: 'Russo One', sans-serif;
+}
+h2{
+  color: white;
+}
+.palabra{
+  color: white;
+font-size: 100px;
+text-align: center;
+}
+
+.teclado{
+  /* margin-left: 21%; */
+  /* margin-top: 507px; */
+  display: flex ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fila1{
+
+}
+.fila2{
+
+}
+.fila3{
+  /* margin-left: 125px; */
+}
+ .teclado div button{
+  width: 70px;
+  margin: 6px;
+  height: 40px;
+  border: 1px solid black ;
+  border-radius: 15px;
+}
+
+body{
+  /* background-image: url(img/fondo3.jpg); */
+   background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/fondo3.jpg);;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-color: red; */
+}
+body::after{
+  content:" ";
+  height: 100vh;
+  width:100vw;
+  opacity: 0.8;
+
+}
+.teclado div button:hover{
+  color: white;
+  background-color: black;
+
+}
+.ganaste{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+  background-image: linear-gradient(#2b7346, #000);
+  width: 100%;
+  height: 200px;
+  display: flex; /*muestra*/
+  display: none; /*oculta*/
+}
+
+.perdiste{
+  background-image: linear-gradient(#9e1313, #000);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: flex; /*muestra*/
+  display: none; /*oculta*/
+}
+h1{
+
+}
