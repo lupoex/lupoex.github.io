@@ -1,0 +1,158 @@
+header, main, footer {
+  overflow: hidden;
+}
+
+
+h1 {
+  color: white;
+  background-color: black;
+  width: 100%;
+  padding: 20px;
+  margin: 0;
+  margin-bottom: 1px;
+}
+.caja {
+color: white;
+background-color: black;
+float: left;
+width: 19.8%;
+text-align: center;
+padding-bottom: 10%
+padding: 20px;
+height: 50px;
+margin:1px;
+}
+
+footer .redes {
+  width: 30px;
+  margin-right: 5px;
+}
+
+footer p {
+  display: inline;
+}
+
+footer{
+  background-color:black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 2px;
+}
+
+.foto {
+border: solid black 2px;
+margin: 2px;
+width: 50%;
+float: right;
+}
+.foto img {
+  width: 100%;
+}
+
+.base{
+  width: 15.5%;
+  margin: 4px;
+  border: solid black 1px;
+  float: left;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  height: 379px;
+  margin: 4px;
+}
+.base img {
+  width: 90%;
+}
+.base p {
+  display: inline;
+  align: center;
+}
+.productos{
+  width: 15.5%;
+  margin: 4px;
+  border: solid black 1px;
+  float: left;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  height: 161px;
+  margin: 6.1px;
+}
+.productos img {
+  width: 90%;
+}
+.productos p {
+  display: inline;
+  align: center;
+}
+
+
+.cyb{
+  width: 15.5%;
+  margin: 4px;
+  border: solid black 1px;
+  float: right;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  height: 247px;
+  margin: 4px;
+}
+.cyb img {
+  width: 100%;
+}
+.cyb p {
+  display: inline;
+  align: center;
+}
+  .h{
+    width: 15.5%;
+    margin: 4px;
+    border: solid black 1px;
+    float: left;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    height: 207px;
+    margin: 4px;
+  }
+  .h img {
+    width: 90%;
+  }
+  .h p {
+    display: inline;
+    align: center;
+}
+    .cs{
+      width: 31.5%;
+      margin: 4px;
+      border: solid black 1px;
+      float: left;
+      font-family: 'Quicksand', sans-serif;
+      text-align: center;
+      height: 280px;
+      margin-top: -30px;
+    }
+    .cs img {
+      width: 54%;
+    }
+    .cs p {
+      display: inline;
+      align: center;
+    }
+
+    .b{
+      width: 15.5%;
+      margin: 4px;
+      border: solid black 1px;
+      float: right;
+      font-family: 'Quicksand', sans-serif;
+      text-align: center;
+      height: 247px;
+      margin: 4px;
+    }
+    .b img {
+      width: 100%;
+      padding-top: 55px;
+    }
+    .b p {
+      display: inline;
+      align: center;
+    }

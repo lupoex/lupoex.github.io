@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+
+* {
+  font-family: 'Quicksand', sans-serif;
+  }
+
+body {
+  background-color: rgb(241, 240, 98)
+}
+
+header {
+  overflow: hidden;
+}
+
+.caja{
+  color: white;
+  background-color: rgb(224, 235, 30);
+  float:left;
+  width: 18.5%;
+  text-align: center;
+  margin-left:10px;
+  margin-right:10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  align-content: center;
+
+}
+
+
+.logo {
+  text-align: center;
+  padding: 10%;
+}
+
+
+.logo img {
+  width: 33%;
+}
+
+
+.footer{
+  background-color: rgb(224, 235, 30);
+  margin-left:10px;
+  margin-right:10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  height: 110px;
+  align-content: center;
+  overflow: hidden;
+}
+.footer img{
+  width: 8%;
+}
+
+.Cleanse {
+  width: 25%;
+  float: left;
+  align-items: center;
+  margin: 20px;
+  margin-left:70px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.Cleanse img {
+  width: 100%;
+  height: 350px;
+  align-items: center;
+}
+
+.shop {
+  width: 100%;
+  overflow: hidden;
+}
+
+.shopw{
+  width: 100%;
+  overflow: hidden;
+}
+
+.shop img {
+  width: 57%;
+  float: left;
+  align-items: center;
+  margin: 20px;
+  margin-left:70px;
+  text-align: center;
+}
+
+.shopw img {
+  width: 57%;
+  float: right;
+  align-items: center;
+  margin: 20px;
+  text-align: center;
+}
+
+.g {
+  float: left;
+  padding-top: 22%;
+  padding-bottom: 22%;
+  margin-left: 13%;
+  font-size: 35px;
+  text-align: center;
+  align-items: center;
+}
+
+.gw {
+  float: right;
+  padding-top: 22%;
+  padding-bottom: 22%;
+  margin-right: 6%;
+  text-align: center;
+  font-size: 35px;
+  align-items: center;
+}
+
+
+.all {
+  width: 25%;
+  align-items: center;
+  margin: 30px;
+  margin-left:70px;
+  text-align: center;
+}
+
+
+
+.all img {
+  width: 100%;
+  height: 350px;
+  align-items: center;
+  margin: 30%;
+}
+
+
+
+.cleansecolor {
+  background-color: rgb(255, 223, 248)
+}
+.ccleanse{
+  background-color: rgb(247, 141, 243);
+  color: white;
+  float:left;
+  width: 18.5%;
+  text-align: center;
+  margin-left:10px;
+  margin-right:10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  align-content: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+.cfooter{
+  background-color: rgb(247, 141, 243);
+  margin-left:10px;
+  margin-right:10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  height: 110px;
+  align-content: center;
+  padding-left: 3px;
+  padding-right: 3px;
+  overflow: hidden;
+}
+.cfooter img{
+  width: 8%;
+}

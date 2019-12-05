@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+  <body>
+    <div class="w3-content w3-display-container">
+  <img class="mySlides1" src="http://yacht-nation.com/wp-content/uploads/2017/07/Couach-3707-new-build-2017-salon.jpg" style="width:100%">
+  <img class="mySlides1" src="http://yacht-nation.com/wp-content/uploads/2017/07/Couach-3707-new-build-2017-master.jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 0)">&#10095;</button>
+</div>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides2" src="https://www.princessyachts.com/media/9896/cgi-11_saloon_high-res_02.jpg?anchor=center&mode=crop&quality=90&width=800&heightratio=0.6666666666666666666666666667&format=jpg&slimmage=true&rnd=131922018200000000" style="width:100%">
+  <img class="mySlides2" src="https://omotgtravel.com/wp-content/uploads/2019/02/Princess-X95-Interior-Stateroom.jpg" style="width:100%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 1)">&#10095;</button>
+</div>
+
+
+
+
+<script>
+var slideIndex = [1,1];
+var slideId = ["mySlides1", "mySlides2"]
+showDivs(1, 0);
+showDivs(1, 1);
+
+function plusDivs(n, no) {
+  showDivs(slideIndex[no] += n, no);
+}
+
+function showDivs(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex[no]-1].style.display = "block";
+}
+</script>
+  </body>
+</html>

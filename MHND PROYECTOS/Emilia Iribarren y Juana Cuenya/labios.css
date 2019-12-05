@@ -1,0 +1,82 @@
+header, main, footer {
+  overflow: hidden;
+}
+
+
+h1 {
+  color: white;
+  background-color: black;
+  width: 100%;
+  padding: 20px;
+  margin: 0;
+  margin-bottom: 1px;
+}
+.caja {
+color: white;
+background-color: black;
+float: left;
+width: 19.8%;
+text-align: center;
+padding-bottom: 10%
+padding: 20px;
+height: 50px;
+margin:1px;
+}
+footer .redes {
+  width: 30px;
+  margin-right: 5px;
+}
+
+footer p {
+  display: inline;
+}
+
+footer{
+  background-color:black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 2px;
+}
+.foto {
+border: solid black 2px;
+margin: 2px;
+width: 50%;
+height: 453px;
+float: left;
+}
+.foto img {
+  width: 100%;
+  height: 453px;
+}
+
+.productos{
+  width: 16.5%;
+  margin: 4px;
+  border: solid black 1px;
+  float: left;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+.productos img {
+  width: 90%;
+}
+.productos p {
+  display: inline;
+  align: center;
+}
+
+.allglitter {
+  width: 14%;
+  margin: 4px;
+  padding-top: 60px;
+padding-bottom: 58px;
+  border: solid black 1px;
+  float: left;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.allglitter img{
+  width: 100%;
+}

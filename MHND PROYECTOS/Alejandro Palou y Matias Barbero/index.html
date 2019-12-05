@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
+  <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+  <style>
+.mySlides {display:none;}
+</style>
+    <link rel="stylesheet" href="estilos.css">
+    <title>Anime</title>
+  </head>
+  <body>
+    <header>
+<img class="logo" src="images/logo.jpg">
+<ul>
+<li>Home</li>
+<li> <a href="animes.html">Animes</a> </li>
+<li> <a href="personajes.html">Personajes</a> </li>
+<li> <a href="dibujos.html">Dibujos</a> </li>
+</ul>
+   </header>
+   <main class="main1">
+     <div class="w3-content w3-section">
+   <img class="mySlides" src="images/BNHA.png" style="width:100%">
+   <img class="mySlides" src="images/the seven deadly sins.png" style="width:100%">
+   <img class="mySlides" src="images/codegeass.jpg" style="width:100%">
+ </div>
+
+ <div class="opciones">
+  <a href="dibujos.html">
+  <h2>Dibujos</h2>
+  <img class="op" src="images/shirley.jpg">
+ </a>
+ </div>
+
+ <div class="opciones">
+  <a href="personajes.html">
+  <h2>Personajes</h2>
+  <img class="op" src="images/star.jpg">
+  </a>
+ </div>
+
+ <div class="opciones">
+  <a href="animes.html">
+  <h2>Animes</h2>
+  <img class="op" src="images/AOTI.jpg">
+</a>
+</div>
+
+   </main>
+  </body>
+
+  <footer>
+    <h3>Creado por Alejandro Palou Caña y Matias Barbero 2019</h3>
+    Consulta tus dudas y visitanos en nuestras redes sociales!
+    @Anime.web.fans
+    <div>
+   <img src="images/whatsapp.png" class="footer"/>
+   </div>
+   <div>
+  <img src="images/Instagram.png" class="footer"/>
+  </div>
+  <div>
+ <img src="images/Facebook.png" class="footer"/>
+ </div>
+ <div>
+<img src="images/twitter.png" class="footer"/>
+</div>
+<div>
+<img src="images/pinterest.png" class="footer"/>
+</div>
+<div>
+<img src="images/Snapchat.png" class="footer"/>
+</div>
+  </footer>
+
+
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000); // Change image every 2 seconds
+  }
+  </script>
+
+</body>
+
+</html>

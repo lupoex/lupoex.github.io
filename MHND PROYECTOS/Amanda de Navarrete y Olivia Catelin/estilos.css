@@ -1,0 +1,63 @@
+main, header, footer{
+  overflow: hidden;
+}
+
+.menu {
+float: left;
+height: 50px;
+width: 18%;
+background-color: black;
+margin: 5px;
+}
+.logo{
+float: left;
+width: 18%;
+margin: 5px;
+  }
+.logo p{
+  color: black;
+  background-color: #F8917B;
+  height: 40px;
+  font-size: 25px;
+  padding-top: 10px;
+  margin: 0;
+  width: 100%;
+  font-family: sans-serif;
+}
+.logo p a{
+  text-decoration: node;
+}
+p {
+ text-align:center;
+font-family: sans-serif;
+color: white;
+}
+.foto img {
+  width: 100%;
+  height: 600px;
+  padding: 5px;
+}
+footer {
+ background-color: black;
+ width: 100%;
+}
+footer p {
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+  font-style: oblique;
+}
+body {
+  background-image: url(img/backgroundd.jpg);
+}
+.menu p a{
+  text-decoration: none;
+  color: white;
+}
+.social{
+  text-align: center;
+  width: 100%;
+}
+.social img{
+width: 9%;
+}

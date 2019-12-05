@@ -1,0 +1,57 @@
+header, main, footer {
+  overflow: hidden;
+}
+
+h1 {
+  color: white;
+  background-color: black;
+  width: 100%;
+  padding: 20px;
+  margin: 0;
+  margin-bottom: 1px;
+}
+.caja {
+color: white;
+background-color: black;
+float: left;
+width: 19.8%;
+text-align: center;
+padding-bottom: 10%
+padding: 20px;
+height: 50px;
+margin:1px;
+}
+footer .redes {
+  width: 30px;
+  margin-right: 5px;
+}
+
+footer p {
+  display: inline;
+}
+
+footer{
+  background-color:black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 2px;
+}
+
+.w3-content {
+  float: right;
+    width: 50%;
+}
+.fotoizq {
+  float: left;
+    width: 50%;
+    height: 390px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top: solid black 5px;
+    border-bottom: solid black 5px;
+}
+
+.fotoizq img {
+  width: 100%;
+}

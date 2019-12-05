@@ -1,0 +1,161 @@
+header, main, footer{
+  overflow: hidden;
+}
+
+h1 {
+margin: 0;
+}
+
+.caja{
+  text-align: center;
+  width: 17%;
+  float: left;
+  margin-left: 7px;
+  margin-right: 5px;
+}
+.foto{
+  height: 175px;
+}
+.foto img{
+  width: 100%;
+  height: 175px;
+}
+.menu {
+  overflow: hidden;
+}
+.fotoscajas{
+  float: left;
+      border: 1px solid lightgrey;
+      width: 14%;
+      padding: 13px;
+      margin: 1%;
+      text-align: center;
+      border-radius: 4%;
+}
+.fotoscajas img{
+  width: 93%;
+    height: 159px;
+    border-radius: 5%;
+}
+
+.fotoscajas p{
+  margin-top: 0;
+}
+
+.barra {
+  width: 100%;
+  overflow: hidden;
+}
+.logo{
+  width: 100%;
+}
+
+.barra h1 {
+  width: 7%;
+  float: left;
+}
+
+.barra input {
+  float: left;
+  width: 29%;
+  margin-left: 2%;
+  margin-top: 57px;
+  border: 0;
+  height: 26px;
+  border-radius: 4px;
+  line-height: 40px;
+  background: #f7f7f7;
+}
+
+.lupita {
+  float: left;
+  width: 17px;
+  margin-top: 62px;
+  margin-left: -25px;
+
+}
+
+.foto {
+  width: 100%;
+
+}
+
+/* .markets {
+  float: left;
+  width: 25%;
+  border: 2px solid black;
+  text-align: center;
+} */
+
+
+/* .contenedor{
+  margin: auto;
+  width: 80%;
+} */
+.markets {
+    float: left;
+    height: 287px;
+    width: 23.9%;
+    border: 2px solid black;
+    text-align: center;
+    margin: 5px;
+}
+
+.markets img {
+  width: 100%;
+  height: 224px;
+}
+
+/* .markets img {
+  width: 100%;
+} */
+
+
+/* .restaurants {
+  float: left;
+  width: 25%;
+  border: 2px solid black;
+  text-align: center;
+} */
+
+
+/* .contenedor{
+  margin: auto;
+  width: 80%;
+} */
+.restaurants {
+    float: left;
+    height: 287px;
+    width: 23.9%;
+    border: 2px solid black;
+    text-align: center;
+    margin: 5px;
+}
+
+.restaurants img {
+  width: 100%;
+  height: 224px;
+}
+
+/* .restaurants img {
+  width: 100%;
+} */
+
+.your order{
+  float: left;
+  border: 2px;
+}
+h2{
+  text-align: center;
+}
+footer{
+  width: 100%;
+  float: left;
+  text-align: center;
+  height: 175px;
+  margin: 5px;
+  }
+  footer img{
+    width: 98%;
+    height: 175px;
+  }

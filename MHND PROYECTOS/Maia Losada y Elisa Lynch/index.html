@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<link rel="stylesheet" href="estilos.css">
+  <head>
+    <meta charset="utf-8">
+    <title>Healthy Dish🥑</title>
+  </head>
+  <body>
+<header>
+  <h1 class="titulo">
+  <img src="img/titulo.jpg" alt="heathydish">
+  </h1>
+
+
+
+<div class="navbar">
+  <a href="index.html">          Home</a>
+</div>
+
+<div class="navbar">
+<a href="menues.html">Menues</a>
+
+</div>
+
+<div class="">
+
+</div>
+  <div class="navbar">
+<div class="dropdown">
+  <button class="dropbtn">Tu eleccion
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content">
+    <a href="carne.html">Carnes</a>
+    <a href="vegetales.html">Vegetales</a>
+</div>
+
+</div>
+
+
+</div>
+<div class="navbar">
+<a href="paga.html">Paga</a>
+</div>
+<div class="navbar">
+<a href="carro.html">🛒</a>
+</div>
+<div class="navbar">
+<a href="corazon.html">❤</a>
+</div>
+</header>
+<main>
+  <div class="orden">
+    <div class="w3-content w3-section" style="max-width:90%">
+    <img class="mySlides" src="img/carusel1.jpg" style="width:100%">
+    <img class="mySlides" src="img/carusel2.jpg" style="width:100%">
+    <img class="mySlides" src="img/carusel3.jpg" style="width:100%">
+  </div>
+
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 4 seconds
+  }
+  </script>
+
+  </div>
+
+</main>
+
+<footer>
+<p>2019© Creado por Maia Losada y Elisa Lynch</p>  <p><img src="img/ig.jpg" alt=""> @helthydish
+<img src="img/face.jpg" alt="">helthydish
+<img src="img/GMAIL.jpg" alt=""> healthydish@gmail.com </p>
+</footer>
+  </body>
+
+</html>

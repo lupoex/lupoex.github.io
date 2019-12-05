@@ -1,0 +1,269 @@
+* {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+header, main, footer {
+  overflow: hidden;
+}
+
+footer {
+  width: 100%;
+}
+
+.titulo img {
+  float: left;
+  width: 5%;
+  width: 6%;
+}
+
+.titulo h1 {
+  float: left;
+  width: 11%;
+  margin-left: 1%;
+  width: 11%;
+  margin-right: 10px;
+}
+
+.titulo .tituloindex {
+  float: left;
+  width: 29%;
+  margin-left: 1%;
+}
+
+.titulo {
+  width: 100%;
+}
+
+.menu {
+
+}
+
+.cajas {
+  margin: 5px;
+  width: 24.2%;
+  background-color: black;
+  padding: 20px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+}
+
+.cajas a {
+  text-decoration: none;
+  color: white;
+}
+
+.foto {
+  width: 99%;
+}
+
+.foto img {
+  width: 100%;
+  margin: 5px;
+  height: 750px;
+}
+
+.mendoza {
+  margin-left: 10px;
+  width: 100%;
+  overflow: hidden;
+  margin-right: 15px;
+  overflow: hidden;
+  margin-top: 7px;
+}
+.mendoza h2 {
+  margin-bottom: auto;
+  margin-top: 66px;
+  float: left;
+  width: 53%;
+}
+.mendoza p {
+  margin-right: 5px;
+  float: left;
+  width: 50%;
+}
+.mendoza img {
+  width: 45.6%;
+  margin-right: 13.2px;
+}
+.ushuaia {
+  margin-left: 10px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 6px;
+}
+.ushuaia h2 {
+  margin-bottom: auto;
+  text-align: right;
+  margin-right: 20px;
+}
+.ushuaia p, h2 {
+  margin-top: 5px;
+}
+.ushuaia img {
+  float: left;
+  width: 44%;
+}
+.ushuaia p {
+  text-align: right;
+  margin-right: 20px;
+}
+.salta {
+  margin-left: 10px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 19px;
+}
+.salta h2 {
+  margin-bottom: auto;
+  margin-top: 12px;
+  float: left;
+  width: 94%;
+}
+.salta p {
+  margin-right: 10px;
+  margin-top: 1%;
+}
+
+.salta img {
+  float: right;
+  width: 45.6%;
+  margin-right: 13.2px;
+}
+
+.algo {
+  float: left;
+  width: 53%;
+  margin-top:7%;
+}
+
+.texto {
+  float: right;
+  width: 53%;
+  margin-top: 5%;
+}
+
+.bsas {
+  margin-left: 10px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 15px;
+}
+.bsas h2 {
+  margin-bottom: auto;
+  text-align: right;
+  margin-right: 20px;
+}
+.bsas p, h2 {
+  margin-top: 5px;
+}
+.bsas img {
+  float: left;
+  width: 44%;
+}
+.bsas p {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.hola {
+  width: 55%;
+  float: right;
+  margin-top: 5%;
+}
+
+.misiones {
+  margin-left: 10px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 19px;
+  margin-bottom: 0.25%;
+}
+.misiones h2 {
+  margin-bottom: auto;
+  margin-top: 12px;
+  float: left;
+  width: 100%;
+}
+.misiones p {
+  margin-right: 10px;
+  margin-top: 1%;
+}
+
+.misiones img {
+  float: right;
+  width: 45.6%;
+  margin-right: 13.2px;
+}
+
+.h {
+  float: left;
+  width: 53%;
+  margin-top:7%;
+}
+
+
+.footers {
+  background-color: #c2bdae;
+  height: 200px;
+}
+.footers h2{
+  padding: 16px;
+}
+.footers img {
+  margin-left: 5px;
+}
+.redes {
+  width: 16%;
+  margin: auto;
+}
+.footers h3 {
+  margin: auto;
+  margin-top: 5px;
+  width: 14%;
+}
+
+.hoteles{
+  width: 100%;
+  margin-left:2px;
+  margin-top: 5px;
+}
+
+.hotel1 {
+  width: 24%;
+  border: dotted black 2px;
+  float: left;
+  margin-right: 4px;
+  margin-left: 4px;
+  margin-top: 10px;
+}
+
+.hotel1 p {
+  margin-top: 1px;
+  margin-bottom: 6px;
+}
+.hotel1 h2 {
+  margin-bottom: 1px;
+  margin-top: 4px;
+}
+
+.img1 img{
+  width: 75%;
+  margin-bottom: 2px;
+  height: 150px;
+}
+
+.e1 img{
+  width: 36%;
+  height: 75px;
+}
+
+.hotel2 {
+  width: 25%;
+}
+
+.lugar {
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
+}

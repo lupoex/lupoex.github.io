@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+header, main, footer {
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+h1{
+  text-align: center;
+  color: grey;
+  float: left;
+  font-family: serif;
+  font-size: 35px;
+  width: 65%;
+}
+.caja1{
+   width: 19%;
+    height: 50px;
+    background-color: rgb(90, 100, 237);
+    text-align: center;
+    margin: 5px;
+    float: left;
+}
+.caja1 p a{
+  text-decoration: none;
+}
+
+.buscador {
+  float: left;
+    width: 16%;
+    margin-top: 13px;
+}
+
+.buscador img{
+  width: 100%;
+}
+
+.iniciosesion{
+  float: right;
+}
+
+.iniciosesion img{
+  width: 100%;
+}
+
+.dolar {
+  float: right;
+  width: 20%;
+}
+.clima{
+  float: right;
+  width: 10%;
+}
+.fotonoticia{
+  float: left;
+  width: 70%;
+}
+
+.fotonoticia img {
+  width: 100%;
+}
+
+.titulonoticia{
+  width: 100%;
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  margin-top: 1%;
+}
+
+
+.textonoticia {
+  width: 100%;
+  margin-top: 1%;
+  border: 1px solid black;
+  overflow: hidden;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.textonoticia img{
+  float: right;
+  width: 30%;
+  margin-right: 5%;
+}
+
+.textonoticia .noticia {
+  float: left;
+  width: 50%;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+.textonoticia h3{
+  font-family: 'Playfair Display', serif;
+    width: 100%;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.textonoticia p{
+  font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    font-size: 20px;
+
+  text-align: justify;
+}
+
+.publicidad {
+  float: right;
+  width: 20%;
+  margin-right: 3%;
+  height: 443px;
+}
+
+.publicidad img {
+  width: 100%;
+}
+
+.noticiacristina {
+  float: left;
+      width: 92%;
+      margin: 2%;
+}
+
+.noticiacristina p{
+font-family: 'Quicksand', sans-serif;
+text-align: justify;
+}
+
+.noticiacristina img {
+  width: 41%;
+      float: left;
+      margin: 2%;
+}
+
+.textonoticia h3{
+  font-family: 'Playfair Display', serif;
+}
+
+.lospumas h2{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.textopumas{
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+
+.textopumas p{
+font-family: 'Quicksand', sans-serif;
+text-align: center;
+font-size: 20px;
+}
+
+.fotopumas {
+  text-align: center;
+}
+
+.fotopumas img{
+  width: 80%;
+}
+
+.titulomodelo {
+  float: left;
+}
+
+.titulomodelo h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+.publicidad2 img{
+  float: right;
+  width: 20%;
+  margin-right: 3%;
+  margin-top: 2%;
+}
+
+.actual {
+  background-color: yellow;
+}
+
+footer {
+  text-align: center;
+}
+
+footer img {
+  width: 10%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
